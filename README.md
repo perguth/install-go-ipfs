@@ -6,7 +6,7 @@ This shell script installs the [go-ipfs](https://github.com/ipfs/go-ipfs) binary
 
 ```sh
 wget -q https://raw.githubusercontent.com/ipfs/install-go-ipfs/master/install-ipfs.sh
-chmox +x install-ipfs.sh
+chmod +x install-ipfs.sh
 ./install-ipfs.sh
 ```
 
