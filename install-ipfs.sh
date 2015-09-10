@@ -28,7 +28,8 @@ assert_has() {
 webget() {
   if type wget >/dev/null;
   then
-    wget -nc -q -O "$1" "$2"
+    # -nc + -O return 1 if file already exists
+    wget -nc -q -O "$1" "$2" || test -f "$1"
     return
   fi
 
