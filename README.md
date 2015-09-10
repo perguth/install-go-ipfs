@@ -1,6 +1,14 @@
 # install-go-ipfs shell script
 
-This shell script installs the [go-ipfs](https://github.com/ipfs/go-ipfs) binary.
+This shell script installs the [go-ipfs](https://github.com/ipfs/go-ipfs) binary. It is not very safe, as it trusts gobuilder to provide a valid binary.
+
+## Install + Run
+
+```sh
+wget -q https://raw.githubusercontent.com/ipfs/install-go-ipfs/master/install-ipfs.sh
+chmox +x install-ipfs.sh
+./install-ipfs.sh
+```
 
 ## Usage
 
