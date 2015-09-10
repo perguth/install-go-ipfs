@@ -28,7 +28,7 @@ assert_has() {
 webget() {
   if type wget >/dev/null;
   then
-    wget -q -O "$1" "$2"
+    wget -nc -q -O "$1" "$2"
     return
   fi
 
