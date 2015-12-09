@@ -18,7 +18,6 @@ installs the ipfs binary at a local install path
 ```
 
 Possible `<version>` values:
-- [`release` - the last released version](https://gobuilder.me/github.com/ipfs/go-ipfs/cmd/ipfs?branch=release)  **<-- recommended**
 - [`master` - development, stable](https://gobuilder.me/github.com/ipfs/go-ipfs/cmd/ipfs?branch=master)
 - Eg. [`v0.3.7` - one of the releases](https://github.com/ipfs/go-ipfs/releases) 
 
